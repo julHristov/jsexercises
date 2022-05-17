@@ -1,3 +1,4 @@
+//SOLUTION 1
 // function listOfEmployees(arr) {
 //   const list = [];
 //   class List {
@@ -22,6 +23,7 @@
 //   "Brendan Villarreal",
 // ]);
 
+//SOLUTION 2
 // function listOfEmployees(arr) {
 //     for (const iterator of arr) {
 //       const currentName = iterator;
@@ -36,6 +38,7 @@
 //     "Brendan Villarreal",
 //   ]);
 
+//SOLUTION 3
 // function demo(input) {
 //   for (const employeeName of input) {
 //     const list = {
@@ -54,9 +57,10 @@
 // }
 // demo(["Silas Butler", "Adnaan Buckley", "Juan Peterson", "Brendan Villarreal"]);
 
-function demo(array) {
-  array.forEach((element) => {
-    console.log(`Name: ${element} -- Personal Number: ${element.length}`);
-  });
-}
-demo(["Silas Butler", "Adnaan Buckley", "Juan Peterson", "Brendan Villarreal"]);
+//SOLUTION 4
+// function demo(array) {
+//   array.forEach((element) => {
+//     console.log(`Name: ${element} -- Personal Number: ${element.length}`);
+//   });
+// }
+// demo(["Silas Butler", "Adnaan Buckley", "Juan Peterson", "Brendan Villarreal"]);
